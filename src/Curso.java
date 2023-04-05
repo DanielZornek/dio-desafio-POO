@@ -11,8 +11,9 @@ public class Curso extends Conteudo{
 
     @Override
     public String toString() {
-        return "Mentoria [nome=" + getTitulo() + ", descricao=" + getDescricao() + ", Carga Horária=" + cargaHoraria + "]";
+        return "Curso [nome=" + getTitulo() + ", descricao=" + getDescricao() + ", Carga Horária=" + cargaHoraria + "]";
     }
+
     @Override
     public double calcularXP() {
         // TODO Auto-generated method stub
